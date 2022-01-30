@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfLangFragment">
+
+    <Button
+        android:id="@+id/conf_lang_back_bt"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        app:icon="@drawable/ic_baseline_arrow_back_24"
+        app:iconTint="@color/black"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/conf_lang_japanese_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/conf_text4"
+        android:textColor="@color/blue"
+        android:textSize="16sp"
+        android:layout_marginTop="100dp"
+        android:checked="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/conf_lang_english_cb"/>
+
+    <CheckBox
+        android:id="@+id/conf_lang_english_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/conf_text5"
+        android:textColor="@color/blue"
+        android:textSize="16sp"
+        android:checked="false"
+        app:layout_constraintTop_toTopOf="@id/conf_lang_japanese_cb"
+        app:layout_constraintStart_toEndOf="@id/conf_lang_japanese_cb"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/conf_lang_reflect_bt"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/conf_lang_ref"
+        android:textSize="18sp"
+        android:backgroundTint="@color/gray"
+        app:layout_constraintTop_toBottomOf="@id/conf_lang_english_cb"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

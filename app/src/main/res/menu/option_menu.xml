@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_bt_itm"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="acount_bt_itm"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item
+                android:id="@+id/menu_userinfo_itm"
+                app:showAsAction="never"
+                android:enabled="false"
+                android:title="@string/option_menu_text1"/>
+
+            <item
+                android:id="@+id/menu_logout_itm"
+                app:showAsAction="never"
+                android:title="@string/option_menu_text2"/>
+
+            <item
+                android:id="@+id/menu_upgrade_itm"
+                app:showAsAction="never"
+                android:title="@string/option_menu_text3"/>
+
+            <item
+                android:id="@+id/menu_rule_itm"
+                app:showAsAction="never"
+                android:title="@string/option_menu_text4"/>
+        </menu>
+    </item>
+</menu>

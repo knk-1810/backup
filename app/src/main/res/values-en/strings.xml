@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">software</string>
+    <string name="title_name">Change Your Life</string>
+    <string name="login_name">Login</string>
+    <string name="user_add_name">New Registration</string>
+    <string name="back_name">Return</string>
+    <string name="id_text">Email address</string>
+    <string name="pass_text">Password</string>
+    <string name="pass_bad_text">※Incorrect email address or password</string>
+    <string name="pass_ask_name">Forgot your password?</string>
+    <string name="title_pass_ask_name">Forgot your password</string>
+    <string name="pass_ask_expla_text">The password will be sent to your registered email address.</string>
+    <string name="send_text">Sending</string>
+    <string name="send_comp_text">The password has been sent to your email address.</string>
+    <string name="pass_again_text">Password for confirmation</string>
+    <string name="user_add_comp_text">Newly registered.</string>
+    <string name="pass_update_comp_text">Password updated.</string>
+    <string name="nav_name1">Input</string>
+    <string name="nav_name2">List</string>
+    <string name="nav_name3">Expenditure</string>
+    <string name="nav_name4">Settings</string>
+    <string name="list_search_name">Search by these conditions</string>
+    <string name="list_reset_name">Reset conditions</string>
+    <string name="update_ok" >Updated</string>
+    <string name="money">yen</string>
+    <string name="limit_money">Current Maximum Amount</string>
+    <string name="limit_money_change">UPDATE</string>
+    <string name="conf_text1">User information</string>
+    <string name="conf_text2">Food Loss Notification</string>
+    <string name="conf_text3">Notification of upper limit amount</string>
+    <string name="conf_text4">Japanese</string>
+    <string name="conf_text5">English</string>
+    <string name="input_food_name">Food Name</string>
+    <string name="input_money">Money</string>
+    <string name="option_user_information">User information</string>
+    <string name="option_logout">Logout</string>
+    <string name="option_upgrade">Upgrade</string>
+    <string name="option_terms_of_use">Terms of use</string>
+    <string name="conf_notify_limit_food"></string>
+    <string name="conf_notify_day_ago">notice before food expires</string>
+    <string name="password_input">Between 6 and 12 single-byte alphanumeric characters</string>
+    <string name="same_password">Same password</string>
+    <string name="list_search">Search</string>
+    <string name="list_conditions">Conditions</string>
+    <string name="list_purchase_date">Purchase date</string>
+    <string name="list_money">Price</string>
+    <string name="list_name">Name</string>
+    <string name="list_limit">Due date</string>
+    <string name="list_search_purchase_date">[Purchase Date]</string>
+    <string name="list_search_range">Search range</string>
+    <string name="list_search_sorting">Sorting</string>
+    <string name="list_search_none">None</string>
+    <string name="list_search_asc">Asc</string>
+    <string name="list_search_desc">Desc</string>
+    <string name="list_search_price">[Price]</string>
+    <string name="list_search_limit_date">[Due date]</string>
+    <string name="list_search_other">[Others]</string>
+    <string name="list_search_only_expire">Show expired only</string>
+    <string name="list_search_close">Close</string>
+
+    <!--                  ここからまだ                 -->
+    <string name="num_input">Enter the password.</string>
+    <string name="pass_update">Update password</string>
+    <string name="new_id">New Email address</string>
+    <string name="new_password">New password</string>
+
+    <string name="conf_lv_item1">Change user information</string>
+    <string name="conf_lv_item2">Change in notification</string>
+    <string name="conf_lv_item3">Change language</string>
+
+    <string name="entry">Registration</string>
+    <string name="sum">Total</string>
+    <string name="key_message">Password change password password</string>
+    <string name="mail_message1">The password is「</string>
+    <string name="mail_message2">」.</string>
+    <string name="mail_message3">Email has been sent.</string>
+    <string name="option_menu_text1">User Information</string>
+    <string name="option_menu_text2">Logout</string>
+    <string name="option_menu_text3">Upgrade</string>
+    <string name="option_menu_text4">Terms of Use</string>
+    <string name="conf_lang_ref">Reflection</string>
+
+    <string name="error_message1">※Enter your email address</string>
+    <string name="error_message2">※Enter password</string>
+    <string name="error_message3">※Please enter your password again</string>
+    <string name="error_message4">※Your password must be 6~12 characters long</string>
+    <string name="error_message5">※Enter your password in half-width alphanumeric characters</string>
+    <string name="error_message6">※Wrong password</string>
+    <string name="error_message7">※Enter a food name</string>
+    <string name="error_message8">※Enter an amount of money</string>
+    <string name="error_message9">※Wrong password</string>
+    <string name="error_message10">※Enter in the range of 1,000 yen to 1,000,000 yen.</string>
+    <string name="error_message11">※Enter a new maximum amount of money</string>
+    <string name="error_message12">※You have exceeded the maximum amount</string>
+
+
+    <string name="input_text1">Date：　　　</string>
+    <string name="input_text2">Deadline：　　　</string>
+
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <string name="delete_dialog_message">Are you sure you want to delete it?</string>
+    <string name="input_dialog_message1">Enter your password.</string>
+    <string name="key_dialog_message">Enter a password.</string>
+    <string name="logout_dialog_message1">Logout</string>
+    <string name="logout_dialog_message2">Would you like to logout?</string>
+    <string name="upgrade_dialog_message1">Upgrade</string>
+    <string name="upgrade_dialog_message2">Do you want to upgrade?</string>
+    <string name="alert_message1">Notice</string>
+    <string name="alert_message2">Close</string>
+    <string name="alert_message3">Do not show next time</string>
+    <string name="alert_message4">We have </string>
+    <string name="alert_message5"> expired food items.</string>
+
+    <string-array name="result_dialog_array">
+        <item>Retry</item>
+        <item>Forgot your password?</item>
+        <item>Cancel</item>
+    </string-array>
+    <string name="result_dialog_message">Wrong password</string>
+
+    <string-array name="result_key_dialog_array">
+        <item>Retry</item>
+        <item>Cancel</item>
+    </string-array>
+    <string name="result_key_dialog_message">Wrong password</string>
+
+    <string-array name="select_foodinfo_dialog_array">
+        <item>Update</item>
+        <item>Delete</item>
+        <item>Menu</item>
+        <item>Cancel</item>
+    </string-array>
+    <string name="select_foodinfo_dialog_message">Food info</string>
+
+    <string-array name="list_sp_array1">
+        <item>No lower limit</item>
+        <item>2024</item>
+        <item>2023</item>
+        <item>2022</item>
+        <item>2021</item>
+        <item>2020</item>
+    </string-array>
+    <string-array name="list_sp_array2">
+        <item>No upper limit</item>
+        <item>2024</item>
+        <item>2023</item>
+        <item>2022</item>
+        <item>2021</item>
+        <item>2020</item>
+    </string-array>
+    <string-array name="list_sp_array3">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+
+    <string name="money_lv_text1">日</string>
+    <string-array name="money_tab_item_array">
+        <item>By the day</item>
+        <item>By the month</item>
+        <item>Maximum amount</item>
+    </string-array>
+    <string-array name="money_month_array">
+        <item> </item>
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string name="notifi_text1" >You have exceeded the maximum amount you set.</string>
+</resources>

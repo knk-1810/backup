@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <EditText
+        android:id="@+id/list_search_word"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:drawableStart="@drawable/ic_baseline_search_24"
+        android:background="@drawable/list_seach_word_background"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:inputType="text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/list_search_bt"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="@string/list_search"
+        android:textColor="@color/gray"
+        android:layout_marginStart="3dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/list_search_word"/>
+
+    <Button
+        android:id="@+id/list_search_option_bt"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="3dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:background="@android:color/transparent"
+        app:icon="@drawable/ic_baseline_add_24"
+        app:iconTint="@color/gray"
+        app:layout_constraintTop_toBottomOf="@id/list_search_word"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="showPopup"/>
+
+    <HorizontalScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/list_search_option_bt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/list_tv1"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="@string/list_purchase_date"
+                android:textSize="20sp"
+                android:layout_marginStart="10dp"
+                android:gravity="left"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/list_tv2"/>
+
+            <TextView
+                android:id="@+id/list_tv2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/list_name"
+                android:textSize="20sp"
+                android:gravity="left"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@id/list_tv1"
+                app:layout_constraintEnd_toStartOf="@id/list_tv3" />
+
+            <TextView
+                android:id="@+id/list_tv3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/list_money"
+                android:textSize="20sp"
+                android:gravity="center"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@id/list_tv2"
+                app:layout_constraintEnd_toEndOf="@id/list_tv3"/>
+
+            <TextView
+                android:id="@+id/list_tv4"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="@string/list_limit"
+                android:textSize="20sp"
+                android:gravity="left"
+                android:layout_marginStart="30dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@id/list_tv3"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <ListView
+                android:id="@+id/list_lv"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/list_tv1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </HorizontalScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

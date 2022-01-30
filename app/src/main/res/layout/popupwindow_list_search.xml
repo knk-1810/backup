@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/popup_list_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/list_search_purchase_date"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/popup_range_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="@string/list_search_range"
+        android:textSize="15sp"
+        app:layout_constraintTop_toTopOf="@id/popup_sp1"
+        app:layout_constraintBottom_toBottomOf="@id/popup_sp1"
+        app:layout_constraintStart_toStartOf="@id/popup_list_tv1" />
+
+    <Spinner
+        android:id="@+id/popup_sp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintTop_toBottomOf="@id/popup_list_tv1"
+        app:layout_constraintStart_toEndOf="@id/popup_range_tv" />
+
+    <Spinner
+        android:id="@+id/popup_sp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/popup_sp1"
+        app:layout_constraintEnd_toEndOf="@id/popup_sp1" />
+
+
+    <TextView
+        android:id="@+id/popup_list_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="〜"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="@id/popup_sp1"
+        app:layout_constraintBottom_toBottomOf="@id/popup_sp1"
+        app:layout_constraintStart_toEndOf="@id/popup_sp1" />
+
+    <Spinner
+        android:id="@+id/popup_sp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/popup_sp1"
+        app:layout_constraintStart_toEndOf="@id/popup_list_tv2" />
+
+    <Spinner
+        android:id="@+id/popup_sp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/popup_sp2"
+        app:layout_constraintEnd_toEndOf="@id/popup_sp2" />
+
+    <TextView
+        android:id="@+id/popup_sort_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="@string/list_search_sorting"
+        android:textSize="15sp"
+        app:layout_constraintTop_toTopOf="@id/popup_buy_radiogroup1"
+        app:layout_constraintBottom_toBottomOf="@id/popup_buy_radiogroup1"
+        app:layout_constraintStart_toStartOf="@id/popup_list_tv1" />
+
+    <RadioGroup
+        android:id="@+id/popup_buy_radiogroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="15dp"
+        app:layout_constraintTop_toBottomOf="@id/popup_sp3"
+        app:layout_constraintStart_toEndOf="@id/popup_sort_tv">
+
+        <RadioButton
+            android:id="@+id/popup_buy_radiobutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/list_search_none"
+            android:textSize="15sp"
+            app:layout_constraintTop_toBottomOf="@id/popup_sp3"
+            app:layout_constraintStart_toEndOf="@id/popup_sort_tv" />
+
+        <RadioButton
+            android:id="@+id/popup_buy_radiobutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/list_search_asc"
+            android:textSize="15sp"
+            app:layout_constraintTop_toTopOf="@id/popup_buy_radiobutton1"
+            app:layout_constraintStart_toEndOf="@id/popup_buy_radiobutton1" />
+
+        <RadioButton
+            android:id="@+id/popup_buy_radiobutton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/list_search_desc"
+            android:textSize="15sp"
+            app:layout_constraintTop_toTopOf="@id/popup_buy_radiobutton1"
+            app:layout_constraintStart_toEndOf="@id/popup_buy_radiobutton2" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/popup_list_tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/list_search_limit_date"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/popup_buy_radiogroup1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/popup_sort_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="@string/list_search_sorting"
+        android:textSize="15sp"
+        app:layout_constraintTop_toTopOf="@id/popup_limit_radiogroup"
+        app:layout_constraintBottom_toBottomOf="@id/popup_limit_radiogroup"
+        app:layout_constraintStart_toStartOf="@id/popup_list_tv1" />
+
+    <RadioGroup
+        android:id="@+id/popup_limit_radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        app:layout_constraintTop_toBottomOf="@id/popup_list_tv3"
+        app:layout_constraintStart_toEndOf="@id/popup_sort_tv2">
+
+        <RadioButton
+            android:id="@+id/popup_limit_radiobutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/list_search_none"
+            android:textSize="15sp"
+            app:layout_constraintTop_toBottomOf="@id/popup_list_tv3"
+            app:layout_constraintStart_toEndOf="@id/popup_sort_tv" />
+
+        <RadioButton
+            android:id="@+id/popup_limit_radiobutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/list_search_asc"
+            android:textSize="15sp"
+            app:layout_constraintTop_toTopOf="@id/popup_list_tv3"
+            app:layout_constraintStart_toEndOf="@id/popup_price_radiobutton1" />
+
+        <RadioButton
+            android:id="@+id/popup_limit_radiobutton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/list_search_desc"
+            android:textSize="15sp"
+            app:layout_constraintTop_toTopOf="@id/popup_list_tv3"
+            app:layout_constraintStart_toEndOf="@id/popup_price_radiobutton2" />
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/popup_list_tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/list_search_price"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/popup_limit_radiogroup"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/popup_sort_tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="@string/list_search_sorting"
+        android:textSize="15sp"
+        app:layout_constraintTop_toTopOf="@id/popup_price_radiogroup"
+        app:layout_constraintBottom_toBottomOf="@id/popup_price_radiogroup"
+        app:layout_constraintStart_toStartOf="@id/popup_list_tv1" />
+
+    <RadioGroup
+        android:id="@+id/popup_price_radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        app:layout_constraintTop_toBottomOf="@id/popup_list_tv5"
+        app:layout_constraintStart_toEndOf="@id/popup_sort_tv">
+
+        <RadioButton
+            android:id="@+id/popup_price_radiobutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/list_search_none"
+            android:textSize="15sp"
+            app:layout_constraintTop_toBottomOf="@id/popup_list_tv5"
+            app:layout_constraintStart_toEndOf="@id/popup_sort_tv" />
+
+        <RadioButton
+            android:id="@+id/popup_price_radiobutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/list_search_asc"
+            android:textSize="15sp"
+            app:layout_constraintTop_toTopOf="@id/popup_list_tv5"
+            app:layout_constraintStart_toEndOf="@id/popup_price_radiobutton1" />
+
+        <RadioButton
+            android:id="@+id/popup_price_radiobutton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/list_search_desc"
+            android:textSize="15sp"
+            app:layout_constraintTop_toTopOf="@id/popup_list_tv5"
+            app:layout_constraintStart_toEndOf="@id/popup_price_radiobutton2" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/popup_list_tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/list_search_other"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/popup_price_radiogroup"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/popup_list_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="@string/list_search_only_expire"
+        app:layout_constraintTop_toBottomOf="@id/popup_list_tv6"
+        app:layout_constraintStart_toStartOf="@id/popup_price_radiogroup" />
+
+
+    <Button
+        android:id="@+id/popup_search_bt"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="@string/list_search_name"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/popup_list_cb"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/popup_reset_bt"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="@string/list_reset_name"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/popup_search_bt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/popup_list_close_bt"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="@string/list_search_close"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/popup_reset_bt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

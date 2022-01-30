@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/conf_pass_ask_return_bt"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:background="@android:color/transparent"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        app:icon="@drawable/ic_baseline_arrow_back_24"
+        app:iconTint="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/conf_pass_ask_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_pass_ask_name"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/conf_pass_ask_tv2"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:text="@string/pass_ask_expla_text"
+        android:layout_marginTop="25dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@id/conf_pass_ask_tv1"
+        app:layout_constraintStart_toStartOf="@id/conf_pass_ask_tv1"
+        app:layout_constraintTop_toBottomOf="@id/conf_pass_ask_tv1" />
+
+    <TextView
+        android:id="@+id/conf_pass_ask_tv3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/conf_pass_ask_tv2"
+        android:text="@string/id_text"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:id="@+id/conf_pass_ask_til"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        app:endIconMode="clear_text"
+        app:errorEnabled="true"
+        app:layout_constraintTop_toBottomOf="@id/conf_pass_ask_tv3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/conf_pass_ask_tiet"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/white"
+            android:maxLines="1"
+            android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/conf_pass_ask_passinput_bt"
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/login_pass_forget_bt_background"
+        android:text="@string/num_input"
+        android:textColor="@color/blue"
+        android:textSize="10dp"
+        app:backgroundTint="@null"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/conf_pass_ask_til" />
+
+    <Button
+        android:id="@+id/conf_pass_ask_send_bt"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="@string/send_text"
+        android:textColor="@color/black"
+        android:background="@drawable/normal_bt_background"
+        app:backgroundTint="@null"
+        android:textSize="20dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/conf_pass_ask_passinput_bt"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

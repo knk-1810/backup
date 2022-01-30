@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">software</string>
+    <string name="title_name">Change Your Life</string>
+    <string name="login_name">ログイン</string>
+    <string name="user_add_name">新規登録</string>
+    <string name="back_name">戻る</string>
+    <string name="id_text">メールアドレス</string>
+    <string name="pass_text">パスワード</string>
+    <string name="pass_bad_text">※メールアドレスかパスワードが間違えています</string>
+    <string name="pass_ask_name">パスワードを忘れた場合はこちら</string>
+    <string name="title_pass_ask_name">パスワードを忘れた</string>
+    <string name="pass_ask_expla_text">登録されているメールアドレスにパスワードを送信します。</string>
+    <string name="send_text">送信</string>
+    <string name="send_comp_text">メールアドレスにパスワードを送信しました。</string>
+    <string name="pass_again_text">確認用パスワード</string>
+    <string name="user_add_comp_text">新規登録しました。</string>
+    <string name="pass_update_comp_text">パスワードを更新しました。</string>
+    <string name="nav_name1">入力</string>
+    <string name="nav_name2">一覧</string>
+    <string name="list_search_name">この条件で検索</string>
+    <string name="list_reset_name">条件をリセット</string>
+    <string name="update_ok" >更新しました</string>
+    <string name="nav_name3">支出</string>
+    <string name="nav_name4">設定</string>
+    <string name="money">円</string>
+    <string name="limit_money">現在の上限金額</string>
+    <string name="limit_money_change">更新</string>
+    <string name="conf_text1">利用者情報</string>
+    <string name="conf_text2">食品ロス通知</string>
+    <string name="conf_text3">上限金額通知</string>
+    <string name="conf_text4">日本語</string>
+    <string name="conf_text5">英語</string>
+    <string name="input_food_name">食品名</string>
+    <string name="input_money">金額</string>
+    <string name="option_user_information">利用者情報</string>
+    <string name="option_logout">ログアウト</string>
+    <string name="option_upgrade">アップグレード</string>
+    <string name="option_terms_of_use">利用者規約</string>
+    <string name="conf_notify_limit_food">食品の期限の</string>
+    <string name="conf_notify_day_ago">日前に通知</string>
+    <string name="password_input">6文字以上12文字以下の半角英数字</string>
+    <string name="same_password">同じパスワード</string>
+    <string name="list_search">検索</string>
+    <string name="list_conditions">条件</string>
+    <string name="list_purchase_date">購入日</string>
+    <string name="list_money">金額</string>
+    <string name="list_name">名前</string>
+    <string name="list_limit">期限日</string>
+    <string name="list_search_purchase_date">[購入日]</string>
+    <string name="list_search_range">検索範囲</string>
+    <string name="list_search_sorting">並び替え</string>
+    <string name="list_search_none">なし</string>
+    <string name="list_search_asc">昇順</string>
+    <string name="list_search_desc">降順</string>
+    <string name="list_search_price">[金額]</string>
+    <string name="list_search_limit_date">[期限日]</string>
+    <string name="list_search_other">[その他]</string>
+    <string name="list_search_only_expire">期限切れのみ表示</string>
+    <string name="list_search_close">閉じる</string>
+    <string name="num_input">合言葉を入力する</string>
+    <string name="pass_update">パスワードを更新</string>
+    <string name="new_id">新しいメールアドレス</string>
+    <string name="new_password">新しいパスワード</string>
+
+    <string name="conf_lv_item1">利用者情報変更</string>
+    <string name="conf_lv_item2">通知変更</string>
+    <string name="conf_lv_item3">言語変更</string>
+    <string name="entry">登録</string>
+    <string name="sum">合計</string>
+    <string name="key_message">パスワード変更の合言葉</string>
+    <string name="mail_message1">合言葉は「</string>
+    <string name="mail_message2">」です。</string>
+    <string name="mail_message3">メールが送信されました</string>
+    <string name="option_menu_text1">ユーザ情報</string>
+    <string name="option_menu_text2">ログアウト</string>
+    <string name="option_menu_text3">アップグレード</string>
+    <string name="option_menu_text4">利用規約</string>
+    <string name="conf_lang_ref">反映</string>
+
+    <string name="error_message1">※メールアドレスを入力してください</string>
+    <string name="error_message2">※パスワードを入力してください</string>
+    <string name="error_message3">※もう一度パスワードを入力してください</string>
+    <string name="error_message4">※パスワードは6文字以上12文字以下で入力してください</string>
+    <string name="error_message5">※パスワードは半角英数字で入力してください</string>
+    <string name="error_message6">※パスワードが間違っています</string>
+    <string name="error_message7">※食品名を入力してください</string>
+    <string name="error_message8">※金額を入力してください</string>
+    <string name="error_message9">※パスワードが間違っています</string>
+    <string name="error_message10">※1000円〜1000000円の範囲で入力してください</string>
+    <string name="error_message11">※新しい上限金額を入力してください</string>
+    <string name="error_message12">※上限金額を超えています</string>
+
+
+    <string name="input_text1">日付：　　　</string>
+    <string name="input_text2">期限：　　　</string>
+
+    <string name="yes">はい</string>
+    <string name="cancel">キャンセル</string>
+    <string name="ok">OK</string>
+
+    <string name="delete_dialog_message">本当に削除しますか</string>
+    <string name="input_dialog_message1">パスワードを入力してください</string>
+    <string name="key_dialog_message">合言葉を入力してください</string>
+    <string name="logout_dialog_message1">ログアウト</string>
+    <string name="logout_dialog_message2">ログアウトしますか？</string>
+    <string name="upgrade_dialog_message1">アップグレード</string>
+    <string name="upgrade_dialog_message2">アップグレードしますか</string>
+    <string name="alert_message1">お知らせ</string>
+    <string name="alert_message2">閉じる</string>
+    <string name="alert_message3">次回から表示しない</string>
+    <string name="alert_message4">期限切れの食品が</string>
+    <string name="alert_message5">件あります。</string>
+
+
+    <string-array name="result_dialog_array">
+        <item>再試行</item>
+        <item>パスワードを忘れた場合</item>
+        <item>キャンセル</item>
+    </string-array>
+    <string name="result_dialog_message">パスワードが違います</string>
+
+    <string-array name="result_key_dialog_array">
+        <item>再試行</item>
+        <item>キャンセル</item>
+    </string-array>
+    <string name="result_key_dialog_message">合言葉が違います</string>
+
+    <string-array name="select_foodinfo_dialog_array">
+        <item>更新</item>
+        <item>削除</item>
+        <item>献立</item>
+        <item>キャンセル</item>
+    </string-array>
+    <string name="select_foodinfo_dialog_message">食品情報</string>
+
+    <string-array name="list_sp_array1">
+        <item>下限なし</item>
+        <item>2024年</item>
+        <item>2023年</item>
+        <item>2022年</item>
+        <item>2021年</item>
+        <item>2020年</item>
+    </string-array>
+    <string-array name="list_sp_array2">
+        <item>上限なし</item>
+        <item>2024年</item>
+        <item>2023年</item>
+        <item>2022年</item>
+        <item>2021年</item>
+        <item>2020年</item>
+    </string-array>
+    <string-array name="list_sp_array3">
+        <item>01月</item>
+        <item>02月</item>
+        <item>03月</item>
+        <item>04月</item>
+        <item>05月</item>
+        <item>06月</item>
+        <item>07月</item>
+        <item>08月</item>
+        <item>09月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+
+    <string name="money_lv_text1">日</string>
+    <string-array name="money_tab_item_array">
+        <item>日別</item>
+        <item>月別</item>
+        <item>上限金額</item>
+    </string-array>
+    <string-array name="money_month_array">
+        <item> </item>
+        <item>01月</item>
+        <item>02月</item>
+        <item>03月</item>
+        <item>04月</item>
+        <item>05月</item>
+        <item>06月</item>
+        <item>07月</item>
+        <item>08月</item>
+        <item>09月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+
+    <string name="notifi_text1" >設定した上限金額を超えました。</string>
+
+</resources>

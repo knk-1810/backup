@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.31145833333333334" />
+        <entry key="app/src/main/res/drawable/app_name_bt_background.xml" value="0.31145833333333334" />
+        <entry key="app/src/main/res/drawable/conf_background.xml" value="0.30666666666666664" />
+        <entry key="app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.31145833333333334" />
+        <entry key="app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2777777777777778" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.26875" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.287962962962963" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_ios_new_24.xml" value="0.287962962962963" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.287962962962963" />
+        <entry key="app/src/main/res/drawable/ic_baseline_create_24.xml" value="0.30666666666666664" />
+        <entry key="app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.2601851851851852" />
+        <entry key="app/src/main/res/drawable/ic_baseline_photo_camera_24.xml" value="0.30185185185185187" />
+        <entry key="app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2462962962962963" />
+        <entry key="app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.30185185185185187" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.31145833333333334" />
+        <entry key="app/src/main/res/drawable/input_background_button.xml" value="0.30185185185185187" />
+        <entry key="app/src/main/res/drawable/list_seach_word_background.xml" value="0.2462962962962963" />
+        <entry key="app/src/main/res/drawable/login_pass_forget_bt_background.xml" value="0.26875" />
+        <entry key="app/src/main/res/drawable/normal_bt_background.xml" value="0.26875" />
+        <entry key="app/src/main/res/drawable/popup_background.xml" value="0.28055555555555556" />
+        <entry key="app/src/main/res/drawable/return_button_background.xml" value="0.26875" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.2526041666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.23854166666666668" />
+        <entry key="app/src/main/res/layout/activity_pass_ask.xml" value="0.2526041666666667" />
+        <entry key="app/src/main/res/layout/activity_pass_update.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/activity_pass_update_comp.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_send_comp.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/activity_tab.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/activity_user_add.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/activity_user_add_comp.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/dialog_alert_limit_food.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/dialog_pass.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/dialog_pass_ask.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/dialog_pass_key.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/fragment_conf.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_conf_lang.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/fragment_conf_notify.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_conf_pass_ask.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/fragment_conf_row.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/fragment_conf_row1.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/fragment_conf_row2.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/fragment_conf_userinfo.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/fragment_input.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/fragment_list.xml" value="0.2632258064516129" />
+        <entry key="app/src/main/res/layout/fragment_list_row.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_list_update.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_money.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/fragment_money_day.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/fragment_money_day_lv.xml" value="0.2907692307692308" />
+        <entry key="app/src/main/res/layout/fragment_money_day_lv_row.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/fragment_money_limit_conf.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/fragment_money_month.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/fragment_notify.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/list.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/list2.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/popupwindow_list_search.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/send.xml" value="0.2824074074074074" />
+        <entry key="app/src/main/res/menu/navigation.xml" value="0.2953125" />
+        <entry key="app/src/main/res/menu/option_menu.xml" value="0.2953125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

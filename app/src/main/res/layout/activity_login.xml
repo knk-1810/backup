@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/login_layout"
+    android:background="@color/app_background"
+    tools:context=".LoginActivity">
+
+    <Button
+        android:id="@+id/login_return_bt"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:background="@drawable/return_button_background"
+        app:icon="@drawable/ic_baseline_arrow_back_24"
+        app:iconTint="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/login_title_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_name"
+        android:minHeight="0dp"
+        android:textAllCaps="false"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:background="@drawable/app_name_bt_background"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/login_title_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_name"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login_return_bt" />
+
+    <TextView
+        android:id="@+id/login_txt1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login_title_txt"
+        android:text="@string/id_text"
+        android:textColor="@color/black"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:id="@+id/login_id_til"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        app:endIconMode="clear_text"
+        app:errorEnabled="true"
+        app:hintTextColor="@color/red"
+        app:layout_constraintTop_toBottomOf="@id/login_txt1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/login_id"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/white"
+            android:maxLines="1"
+            android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/login_txt3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@id/login_txt1"
+        app:layout_constraintTop_toBottomOf="@id/login_id_til"
+        android:text="@string/pass_text"
+        android:textColor="@color/black"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:id="@+id/login_paas_til"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        app:passwordToggleEnabled="true"
+        app:errorEnabled="true"
+        app:hintTextColor="@color/red"
+        app:layout_constraintTop_toBottomOf="@id/login_txt3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/login_pass"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/white"
+            android:maxLines="1"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/login_pass_ask_bt"
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/login_pass_forget_bt_background"
+        android:text="@string/pass_ask_name"
+        android:textColor="@color/blue"
+        android:textSize="10dp"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login_paas_til" />
+
+    <TextView
+        android:id="@+id/login_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:textSize="12sp"
+        android:text="@string/pass_bad_text"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@id/login_pass_ask_bt"
+        app:layout_constraintStart_toStartOf="@id/login_pass_ask_bt" />
+
+    <Button
+        android:id="@+id/login_push_bt"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="@string/login_name"
+        android:textColor="@color/black"
+        android:background="@drawable/normal_bt_background"
+        app:backgroundTint="@null"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login_result"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

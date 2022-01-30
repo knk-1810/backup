@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_in_itm"
+        android:icon="@drawable/ic_baseline_create_24"
+        android:title="@string/nav_name1" />
+    <item
+        android:id="@+id/nav_list_itm"
+        android:icon="@drawable/ic_baseline_list_24"
+        android:title="@string/nav_name2" />
+    <item
+        android:id="@+id/nav_money_itm"
+        android:icon="@drawable/ic_baseline_monetization_on_24"
+        android:title="@string/nav_name3" />
+    <item
+        android:id="@+id/nav_conf_itm"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/nav_name4" />
+</menu>
